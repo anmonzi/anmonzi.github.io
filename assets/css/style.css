@@ -630,13 +630,18 @@ section {
 }
 
 .about .skills-content .progress .skill {
-  padding: 10px 0;
+  /* padding: 10px 0; */
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   color: #3b434a;
+}
+
+.about .progress span.skill-text {
+  color: #d2d3d5;
+  letter-spacing: 1px;
 }
 
 .about .skills-content .progress .skill .val {
@@ -723,7 +728,7 @@ section {
 # My Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -893,6 +898,8 @@ section {
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .portfolio #portfolio-flters li {
