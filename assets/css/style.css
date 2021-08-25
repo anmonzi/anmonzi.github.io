@@ -590,6 +590,10 @@ section {
   color: #82909c;
 }
 
+.about-details {
+  color: #c9cbcd;
+}
+
 .about .image {
   background: url("../img/me.JPG") center center no-repeat;
   background-size: cover;
